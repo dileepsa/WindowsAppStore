@@ -1,0 +1,376 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\001-mail inbox app.png" />
+    <None Remove="Images\002-speech bubble.png" />
+    <None Remove="Images\003-telephone.png" />
+    <None Remove="Images\004-camera.png" />
+    <None Remove="Images\005-image.png" />
+    <None Remove="Images\006-weather app.png" />
+    <None Remove="Images\007-clock.png" />
+    <None Remove="Images\008-maps.png" />
+    <None Remove="Images\009-tv app.png" />
+    <None Remove="Images\010-notes.png" />
+    <None Remove="Images\011-house.png" />
+    <None Remove="Images\012-daily health app.png" />
+    <None Remove="Images\013-news.png" />
+    <None Remove="Images\014-music.png" />
+    <None Remove="Images\015-folder.png" />
+    <None Remove="Images\016-stock exchange app.png" />
+    <None Remove="Images\017-web browser.png" />
+    <None Remove="Images\018-calendar.png" />
+    <None Remove="Images\019-reminders.png" />
+    <None Remove="Images\020-video calling app.png" />
+    <None Remove="Images\021-podcast.png" />
+    <None Remove="Images\022-wallet passes app.png" />
+    <None Remove="Images\023-app store.png" />
+    <None Remove="Images\024-books.png" />
+    <None Remove="Images\025-settings.png" />
+    <None Remove="Images\026-tips.png" />
+    <None Remove="Images\027-remote control.png" />
+    <None Remove="Images\028-voice message app.png" />
+    <None Remove="Images\029-find my gadget app.png" />
+    <None Remove="Images\030-shortcut script app.png" />
+    <None Remove="Images\031-translate.png" />
+    <None Remove="Images\032-smartwatch app.png" />
+    <None Remove="Images\033-calculator.png" />
+    <None Remove="Images\034-music store app.png" />
+    <None Remove="Images\035-contacts.png" />
+    <None Remove="Images\036-browser.png" />
+    <None Remove="Images\037-bank.png" />
+    <None Remove="Images\038-like.png" />
+    <None Remove="Images\039-twitter.png" />
+    <None Remove="Images\040-youtube.png" />
+    <None Remove="Images\041-whatsapp.png" />
+    <None Remove="Images\042-transport.png" />
+    <None Remove="Images\043-streaming tv app.png" />
+    <None Remove="Images\044-search.png" />
+    <None Remove="Images\045-instagram.png" />
+    <None Remove="Images\046-shopping.png" />
+    <None Remove="Images\047-pin.png" />
+    <None Remove="Images\048-tiktok.png" />
+    <None Remove="Images\049-messenger.png" />
+    <None Remove="Images\050-edition.png" />
+    <None Remove="Images\051-drive.png" />
+    <None Remove="Images\052-snapchat.png" />
+    <None Remove="Images\053-reddit.png" />
+    <None Remove="Images\054-twitch.png" />
+    <None Remove="Images\055-spotify.png" />
+    <None Remove="Images\056-video editing app.png" />
+    <None Remove="Images\057-music maker app.png" />
+    <None Remove="Images\058-tinder.png" />
+    <None Remove="Images\059-slack.png" />
+    <None Remove="Images\060-telegram.png" />
+    <None Remove="Images\061-discord.png" />
+    <None Remove="Images\062-tumblr.png" />
+    <None Remove="Images\063-slide show app.png" />
+    <None Remove="Images\064-movies app.png" />
+    <None Remove="Images\065-pages.png" />
+    <None Remove="Images\066-spreadsheet app.png" />
+    <None Remove="Images\067-mortarboard.png" />
+    <None Remove="Images\068-waze.png" />
+    <None Remove="Images\069-linkedin.png" />
+    <None Remove="Images\070-file hosting.png" />
+    <None Remove="Images\ProductivityAppIcons\001-productivity.jpg" />
+    <None Remove="Images\ProductivityAppIcons\all.png" />
+    <None Remove="Images\ProductivityAppIcons\drawing.png" />
+    <None Remove="Images\ProductivityAppIcons\gaming.webp" />
+    <None Remove="Images\ProductivityAppIcons\mobile.png" />
+    <None Remove="Images\ProductivityAppIcons\mobilePen.png" />
+    <None Remove="Images\ProductivityAppIcons\tablet.png" />
+    <None Remove="Images\ProductivityAppIcons\tablet2.png" />
+    <None Remove="Images\topapp1.png" />
+    <None Remove="Images\TopAppIcons\81-tropical.png" />
+    <None Remove="Images\TopAppIcons\82-circus fun.png" />
+    <None Remove="Images\TopAppIcons\83-Race extreme.png" />
+    <None Remove="Images\TopAppIcons\84-chat message.png" />
+    <None Remove="Images\TopAppIcons\85-Night castle.png" />
+    <None Remove="Images\topappsmall1.png" />
+    <None Remove="Images\topappsmall2.png" />
+    <None Remove="Images\topappsmall3.png" />
+    <None Remove="Images\topappsmall4.png" />
+    <None Remove="Images\ZoomIcon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JonSkeet.MiscUtil" Version="0.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\001-mail inbox app.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\002-speech bubble.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\003-telephone.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\004-camera.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\005-image.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\006-weather app.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\007-clock.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\008-maps.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\009-tv app.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\010-notes.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\011-house.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\012-daily health app.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\013-news.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\014-music.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\015-folder.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\016-stock exchange app.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\017-web browser.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\018-calendar.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\019-reminders.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\020-video calling app.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\021-podcast.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\022-wallet passes app.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\023-app store.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\024-books.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\025-settings.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\026-tips.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\027-remote control.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\028-voice message app.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\029-find my gadget app.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\030-shortcut script app.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\031-translate.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\032-smartwatch app.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\033-calculator.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\034-music store app.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\035-contacts.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\036-browser.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\037-bank.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\038-like.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\039-twitter.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\040-youtube.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\041-whatsapp.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\042-transport.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\043-streaming tv app.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\044-search.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\045-instagram.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\046-shopping.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\047-pin.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\048-tiktok.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\049-messenger.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\050-edition.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\051-drive.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\052-snapchat.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\053-reddit.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\054-twitch.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\055-spotify.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\056-video editing app.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\057-music maker app.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\058-tinder.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\059-slack.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\060-telegram.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\061-discord.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\062-tumblr.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\063-slide show app.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\064-movies app.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\065-pages.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\066-spreadsheet app.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\067-mortarboard.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\068-waze.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\069-linkedin.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\070-file hosting.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\ProductivityAppIcons\001-productivity.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\ProductivityAppIcons\all.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\ProductivityAppIcons\drawing.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\ProductivityAppIcons\gaming.webp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\ProductivityAppIcons\mobile.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\ProductivityAppIcons\mobilePen.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\ProductivityAppIcons\tablet.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\ProductivityAppIcons\tablet2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\topapp1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\TopAppIcons\81-tropical.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\TopAppIcons\82-circus fun.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\TopAppIcons\83-Race extreme.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\TopAppIcons\84-chat message.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\TopAppIcons\85-Night castle.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\topappsmall1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\topappsmall2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\topappsmall3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\topappsmall4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\ZoomIcon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
