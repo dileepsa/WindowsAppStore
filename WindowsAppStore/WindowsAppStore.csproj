@@ -78,6 +78,8 @@
     <None Remove="Images\068-waze.png" />
     <None Remove="Images\069-linkedin.png" />
     <None Remove="Images\070-file hosting.png" />
+    <None Remove="Images\AppDetailsIcons\01-tea.png" />
+    <None Remove="Images\AppDetailsIcons\FieldBackground.jpg" />
     <None Remove="Images\ProductivityAppIcons\001-productivity.jpg" />
     <None Remove="Images\ProductivityAppIcons\all.png" />
     <None Remove="Images\ProductivityAppIcons\drawing.png" />
@@ -312,6 +314,12 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\070-file hosting.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\AppDetailsIcons\01-tea.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\AppDetailsIcons\FieldBackground.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\ProductivityAppIcons\001-productivity.jpg">

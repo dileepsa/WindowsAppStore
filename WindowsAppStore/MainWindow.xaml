@@ -18,6 +18,8 @@
                Loaded="MainWindowFrame_Loaded"
                Width="{Binding ElementName=MainWindowMetro, Path=ActualWidth}"
                Height="{Binding ElementName=MainWindowMetro, Path=ActualHeight}"
-               NavigationUIVisibility="Hidden"></Frame>
+               NavigationUIVisibility="Hidden"
+               Visibility="Hidden"></Frame>
+        <uc:AppDetails></uc:AppDetails>
     </Grid>
 </Window>

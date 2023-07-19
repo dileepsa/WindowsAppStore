@@ -1,0 +1,88 @@
+﻿<UserControl x:Class="WindowsAppStore.UserControls.AppDetails"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WindowsAppStore.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="500" d:DesignWidth="1200">
+    <Grid x:Name="AppViewAndBackgroundGrid"
+          Height="580">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.50*"></RowDefinition>
+            <RowDefinition Height="0.50*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="50"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Image x:Name="BackGroundImage"
+               Grid.Row="0"
+               Grid.Column="0"
+               Grid.RowSpan="2"
+               Grid.ColumnSpan="3"
+               HorizontalAlignment="Stretch"
+               VerticalAlignment="Stretch"
+               Source="/Images/AppDetailsIcons/FieldBackground.jpg">
+        </Image>
+        <Button x:Name="BackButton"
+                Grid.Column="0"
+                Height="35"
+                Width="35"
+                Content="&lt;"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Click="BackButton_Click">
+        </Button>
+        <Grid 
+            Grid.Row="1"
+            Grid.Column="1"
+            Background="#2e2e2e"
+            Margin="15">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.18*"></ColumnDefinition>
+                <ColumnDefinition Width="0.60*"></ColumnDefinition>
+                <ColumnDefinition Width="0.22*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Image Grid.Column="0"
+               Grid.Row="0"
+                   Margin="15"
+               Source="/Images/AppDetailsIcons/01-tea.png"
+                   VerticalAlignment="Center"
+                   Stretch="Fill"
+                   >
+            </Image>
+            <StackPanel
+                Grid.Row="1"
+                Grid.Column="1"
+                Orientation="Vertical"
+                Margin="15">
+                <Label x:Name="AppName" Foreground="White" FontSize="20">Tea App</Label>
+                <StackPanel Orientation="Horizontal">
+                    <Label FontSize="12" Foreground="#009cfa">Tea</Label>
+                    <Label FontSize="12" Foreground="#009cfa">Entertainment</Label>
+                    <Label FontSize="12" Foreground="#009cfa"> Relief </Label>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal">
+                    <Label FontSize="12" Foreground="White">Official club</Label>
+                    <Label FontSize="12" Foreground="White">Share</Label>
+                </StackPanel>
+                <TextBlock Margin="6" FontSize="12"
+                           Foreground="White"
+                           TextWrapping="WrapWithOverflow">
+                    Tea, beverage produced by steeping in freshly boiled water the young leaves and leaf buds of the tea plant, Camellia sinensis. Two principal varieties are used, the small-leaved China plant (C. sinensis variety sinensis) and the large-leaved Assam plant (C. sinensis variety assamica). Hybrids of these two varieties are also grown. The leaves may be fermented or left unfermented.
+                </TextBlock>
+            </StackPanel>
+            <StackPanel x:Name="DownloadSP" 
+                        Grid.Row="0"
+                        Grid.Column="2"
+                        Margin="15">
+                <Label FontSize="18" Foreground="gray">Free+</Label>
+                <Button Background="#009cfa" Foreground="White"> Get</Button>
+                </StackPanel>
+        </Grid>
+        
+    </Grid>
+</UserControl>
